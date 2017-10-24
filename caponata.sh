@@ -1,4 +1,4 @@
 #!/bin/bash
+BASEDIR=$(npm root -g)
 
-BASEDIR=$(dirname "$0")
-plop --plopfile "${BASEDIR}/app/index.js"
+plop --plopfile "${BASEDIR}/caponata/app/index.js"
