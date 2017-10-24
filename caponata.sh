@@ -1,3 +1,4 @@
 #!/bin/bash
 
-plop --plopfile ./app/index.js
+BASEDIR=$(dirname "$0")
+plop --plopfile "${BASEDIR}/app/index.js"
