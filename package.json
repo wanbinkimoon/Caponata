@@ -1,12 +1,12 @@
 {
   "name": "caponata",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": "index.js",
   "repository": "git@github.com:wanbinkimoon/Caponata.git",
   "author": "Nicola Bertelloni <nicola.bertelloni@gmail.com>",
   "license": "GNU",
   "bin": {
-    "caponata": "bin/generate"
+    "caponata": "./generate"
   },
   "scripts": {
     "start": "plop --plopfile ./app/index.js"
