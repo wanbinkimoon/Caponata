@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 
 const componentGenerator = require('./generators/component')
 const containerGenerator = require('./generators/container')
