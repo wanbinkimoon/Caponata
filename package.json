@@ -11,10 +11,9 @@
   "scripts": {
     "start": "plop --plopfile ./app/index.js"
   },
-  "devDependencies": {
+  "dependencies": {
     "fs": "^0.0.1-security",
     "path": "^0.12.7",
     "plop": "^1.9.0"
-  },
-  "dependencies": {}
+  }
 }
